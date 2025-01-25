@@ -40,9 +40,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Burger ikonuna basıldığında drawer'ı açar. Up buttonu aktif hale getirir.
-    override fun onSupportNavigateUp(): Boolean {
-        return NavigationUI.navigateUp(navController, binding.main)
-    }
+//    override fun onSupportNavigateUp(): Boolean {
+//        return NavigationUI.navigateUp(navController, binding.main)
+//    }
 
     private fun defaultUISettings() {
         enableEdgeToEdge()
